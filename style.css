@@ -29,7 +29,7 @@ body{
     margin: 0;
     padding: 20px 0;
     border-style: solid;
-    border-width: 2px 5px;
+    border-width: 2px 4px;
     border-radius: 10px;
     border-color: white;
 }
@@ -42,7 +42,8 @@ body{
 }
 .content-area p{
     text-align: justify;
-    padding: 10px 30px 40px;
+    padding: 10px 3% 40px;
+    margin: 0;
     font-family: 'PT Serif', serif;
 }
 
@@ -60,7 +61,7 @@ body{
     margin: 0;
     padding: 20px 0;
     border-style: solid;
-    border-width: 2px 5px;
+    border-width: 2px 4px;
     border-radius: 10px;
     border-color: white;
 }
@@ -88,3 +89,26 @@ body{
     color: #f27935;
     border-color: #f27935 ;
 }
+
+/*media query*/
+@media only screen and (max-width: 600px) {
+    .left-side{
+        width: 22%;
+    }
+    .right-side{
+        width: 22%;
+    }
+    .content-area{
+        width: 56%;
+    }
+
+    .left-side h3{
+        font-size: 19px;
+    }
+    .right-side h3{
+        font-size: 19px;
+    }
+    .content-area p{
+        font-size: 14px;
+    }
+  }
