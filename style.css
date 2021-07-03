@@ -82,7 +82,9 @@ body{
 }
 .left-side h3:hover{
     color: #f27935;
+    border-color: #f27935 ;
 } 
 .right-side h3:hover{
     color: #f27935;
+    border-color: #f27935 ;
 }
