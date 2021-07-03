@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+}
+.header-area{
+    background-color: #23cba7;
+    overflow: hidden;
+}
+.header-area h1{
+    text-align: center;
+    color: white;
+    font-family: 'Headland One', serif;
+}
+.main-area{
+    overflow: hidden;
+
+}
+.left-side{
+    width:20%;
+    overflow: hidden;
+    float: left;
+}
+.left-side h3{
+    text-align: center;
+    color: white;
+    background-color:#3FC380 ;
+    font-family: 'Tourney', cursive;
+    font-size: 28px;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 20px 0;
+    border-style: solid;
+    border-width: 2px 5px;
+    border-radius: 10px;
+    border-color: white;
+}
+
+.content-area{
+    width: 60%;
+    overflow: hidden;
+    background-color: white;
+    float: left;
+}
+.content-area p{
+    text-align: justify;
+    padding: 10px 30px 40px;
+    font-family: 'PT Serif', serif;
+}
+
+.right-side{
+    width:20%;
+    overflow: hidden;
+}
+.right-side h3{
+    text-align: center;
+    color: white;
+    background-color: #3fc380 ;
+    font-family: 'Tourney', cursive;
+    font-size: 28px;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 20px 0;
+    border-style: solid;
+    border-width: 2px 5px;
+    border-radius: 10px;
+    border-color: white;
+}
+
+.footer-area{
+    background-color: #019875;
+    overflow: hidden;
+}
+.footer-area p{
+    text-align: center;
+    color: white;
+    font-family: 'PT Serif', serif;
+}
+.footer-area p span{
+    color: #c8f7c5;
+    font-weight: 900;
+    font-family: 'Headland One', serif;
+    letter-spacing: 3px;
+}
+.left-side h3:hover{
+    color: #f27935;
+} 
+.right-side h3:hover{
+    color: #f27935;
+}
